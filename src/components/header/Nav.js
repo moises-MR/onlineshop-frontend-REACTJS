@@ -149,7 +149,7 @@ if(user){
     <Dropdown.Item href="/crear-usuario">Registrarme</Dropdown.Item>
     <Dropdown.Item href="/iniciar-sesion">Iniciar sesion</Dropdown.Item>
     <Dropdown.Item href="/admin/administrador/productos/nuevo-producto">Nuevo producto</Dropdown.Item>
-    <Dropdown.Item href="/nosotros">Nosotros</Dropdown.Item>
+    <Dropdown.Item href="/admin/administrador/productos">Productos</Dropdown.Item>
   </Dropdown.Menu>
 </Dropdown>
 
