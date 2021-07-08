@@ -57,7 +57,7 @@ const Celular = ({celular}) => {
     return (
 
     <Div>
-    <img src={`http://localhost:5600/${celular.imagen}`} alt={celular.nombreProducto}/>   
+    <img src={`${process.env.REACT_APP_BACKEND_URL}/${celular.imagen}`} alt={celular.nombreProducto}/>   
     <h3>{celular.nombreProducto}</h3>
     <p>{`Desde ${celular.precio}`}</p>
     <a href="#">Comprar</a>

@@ -139,7 +139,7 @@ const Producto = ({producto}) => {
     return (
         <Div>
         <img 
-        src={`http://localhost:5600/${imagen}`} 
+        src={`${process.env.REACT_APP_BACKEND_URL}/${imagen}`} 
         alt={nombreProducto}
         
         />
